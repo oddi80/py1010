@@ -33,7 +33,7 @@ total_el = forsikring_el \
          + forbruk_el * km_per_år * strømpris
          
 total_bensin = forsikring_bensin \
-    + avgift_bensin \
+    + avgift_bensin * 365 \
     + bomavgift_bensin \
     + forbruk_bensin * km_per_år
     
